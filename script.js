@@ -318,11 +318,11 @@ function removeProjectDetails() {
     setTimeout(() => {
         let project = document.getElementById('pDetailsSec');
         project.style.display = 'none';
-    },1000);
+    },1500);
 };
 function removeToDO() {
     setTimeout(() => {
         let showPt = document.getElementById('ptToDoSec');
         showPt.style.display = 'none';
-    },1000);
+    },2000);
 };
